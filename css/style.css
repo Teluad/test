@@ -2,16 +2,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Encode+Sans+Semi+Condensed:wght@400;500;700;800;900&display=swap");
 @font-face {
   font-family: "Good Vibes";
-  src: url("fonts/Good Vibes - Demo.eot");
-  src: local("☺"), url("fonts/Good Vibes - Demo.woff") format("woff"), url("fonts/Good Vibes - Demo.ttf") format("truetype"), url("fonts/Good Vibes - Demo.svg") format("svg");
+  src: url("../fonts/Good Vibes - Demo.eot");
+  src: local("☺"), url("../fonts/Good Vibes - Demo.woff") format("woff"), url("../fonts/Good Vibes - Demo.ttf") format("truetype"), url("../fonts/Good Vibes - Demo.svg") format("svg");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: "goodvibes";
-  src: url("/fonts/goodvibes.eot");
-  src: local("☺"), url("fonts/goodvibes.woff") format("woff"), url("fonts/goodvibes.ttf") format("truetype"), url("fonts/goodvibes.svg") format("svg");
+  src: url("../fonts/goodvibes.eot");
+  src: local("☺"), url("../fonts/goodvibes.woff") format("woff"), url("../fonts/goodvibes.ttf") format("truetype"), url("../fonts/goodvibes.svg") format("svg");
   font-weight: normal;
   font-style: normal;
 }
@@ -390,19 +390,19 @@ h6 {
 }
 
 .menopause__content-first {
-  background: url("/img/1.png") left no-repeat;
+  background: url("img/1.png") left no-repeat;
   padding: 0px 0px 0px 120px;
   background-size: contain;
 }
 
 .menopause__content-second {
-  background: url("/img/2.png") left no-repeat;
+  background: url("img/2.png") left no-repeat;
   padding: 0px 0px 0px 120px;
   background-size: contain;
 }
 
 .menopause__content-third {
-  background: url("/img/3.png") left no-repeat;
+  background: url("img/3.png") left no-repeat;
   padding: 0px 0px 0px 120px;
   background-size: contain;
 }
@@ -639,6 +639,12 @@ h6 {
 
 .footer__right img {
   margin-bottom: 25px;
+}
+
+.footer__input {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .footer__input input {
