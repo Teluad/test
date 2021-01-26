@@ -390,19 +390,19 @@ h6 {
 }
 
 .menopause__content-first {
-  background: url("img/1.png") left no-repeat;
+  background: url("../img/1.png") left no-repeat;
   padding: 0px 0px 0px 120px;
   background-size: contain;
 }
 
 .menopause__content-second {
-  background: url("img/2.png") left no-repeat;
+  background: url("../img/2.png") left no-repeat;
   padding: 0px 0px 0px 120px;
   background-size: contain;
 }
 
 .menopause__content-third {
-  background: url("img/3.png") left no-repeat;
+  background: url("../img/3.png") left no-repeat;
   padding: 0px 0px 0px 120px;
   background-size: contain;
 }
